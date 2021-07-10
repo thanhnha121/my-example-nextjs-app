@@ -1,11 +1,11 @@
 .container {
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 100px);
 }
 
 .main {
@@ -88,6 +88,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+  cursor: pointer;
 }
 
 .card:hover,
